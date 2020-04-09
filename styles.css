@@ -1,0 +1,112 @@
+html,body{
+    width:100%;
+    height:100%;
+    }
+
+    body {
+        background-color: red;
+    }
+    
+    main {
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hat-container{
+        width: fit-content;
+        height: fit-contents;
+        position: relative;
+    }
+
+    .hat{
+        width: 176px;
+        height: 204px;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .hatband {
+        position: absolute;
+        width: 220px;
+        height: 45px;
+        background-color: #3b3b3b;
+        left: -22px;
+        bottom: -22px;
+    }
+
+    .band{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        background-color: brown;
+        margin-bottom: 1%;
+    }
+
+    .buckle {
+        width: 20%;
+        height: 100%;
+        border: solid 11px gold;
+        background-color: brown;
+    }
+    .head{
+        width: 193px;
+        height: 165px;
+        background-color: ivory;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .eyes  {
+ 
+    width: 72%;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16%;
+}
+
+    .eye{
+    width: 35px;
+    height: 30px;
+    border-radius: 70%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    position: relative;
+    }
+
+
+    .pet {
+        width: 30%;
+        height: 30%;
+        border-radius: 50%;
+        background-color: white;
+        margin: 15%;
+    }
+
+    .tears{
+        display: none;
+        width: 35px;
+        height: 50px;
+        background-color: lightskyblue;
+        opacity: 0.8;
+        position: absolute;
+        bottom: -39px;
+    }
+
+    .eyes:hover .tears{
+        display: block;
+    }
+
+    .mouth {
+        width: 100%;
+        border: black solid 1.5px;
+        margin-bottom: 10%;
+    }
